@@ -45,7 +45,9 @@ bool HelloWorld::init()
                                 origin.y + pCloseItem->getContentSize().height/2));
 
     // create menu, it's an autorelease object
-    CCMenu* pMenu = CCMenu::create(pCloseItem, NULL);
+    //CCMenu* pMenu = CCMenu::create(pCloseItem, NULL);
+	CCMenu* pMenu = CCMenu::create();
+	pMenu->addChild(pCloseItem, 0);
     pMenu->setPosition(CCPointZero);
     this->addChild(pMenu, 1);
 

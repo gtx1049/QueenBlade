@@ -7,6 +7,21 @@
     <Filter Include="Classes">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\menu">
+      <UniqueIdentifier>{3d2c32dc-985e-454d-85da-af489fb41579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\controll">
+      <UniqueIdentifier>{2136d3cc-349a-4ec5-baf8-1923b857219b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene">
+      <UniqueIdentifier>{92c8c940-c67e-4849-8d89-4795ccf64d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\hero">
+      <UniqueIdentifier>{cd68dc79-fac1-4c04-b389-eecd13590c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\dialog">
+      <UniqueIdentifier>{fea5b9ad-98fb-4e24-9e0f-d6f72abd0665}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -18,6 +33,51 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\menu\FlowMenu.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\SkillMenu.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controll\Controller.cpp">
+      <Filter>Classes\controll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controll\Loader.cpp">
+      <Filter>Classes\controll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controll\ProcessRule.cpp">
+      <Filter>Classes\controll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\BattleScene.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\GalleryScene.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\MainScene.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\StoryScene.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\Animate.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\Hero.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hero\HeroEntity.cpp">
+      <Filter>Classes\hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\dialog\DialogBox.cpp">
+      <Filter>Classes\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\dialog\StatuBar.cpp">
+      <Filter>Classes\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menu\BeginMenu.cpp">
+      <Filter>Classes\menu</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -28,6 +88,51 @@
     </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\FlowMenu.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\SkillMenu.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controll\Controller.h">
+      <Filter>Classes\controll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controll\Loader.h">
+      <Filter>Classes\controll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controll\ProcessRule.h">
+      <Filter>Classes\controll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\BattleScene.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\GalleryScene.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\MainScene.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\StoryScene.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\Animate.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\Hero.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hero\HeroEntity.h">
+      <Filter>Classes\hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\dialog\DialogBox.h">
+      <Filter>Classes\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\dialog\StatuBar.h">
+      <Filter>Classes\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menu\BeginMenu.h">
+      <Filter>Classes\menu</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

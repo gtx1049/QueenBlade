@@ -128,12 +128,42 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\controll\Controller.cpp" />
+    <ClCompile Include="..\Classes\controll\Loader.cpp" />
+    <ClCompile Include="..\Classes\controll\ProcessRule.cpp" />
+    <ClCompile Include="..\Classes\dialog\DialogBox.cpp" />
+    <ClCompile Include="..\Classes\dialog\StatuBar.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\hero\Animate.cpp" />
+    <ClCompile Include="..\Classes\hero\Hero.cpp" />
+    <ClCompile Include="..\Classes\hero\HeroEntity.cpp" />
+    <ClCompile Include="..\Classes\menu\BeginMenu.cpp" />
+    <ClCompile Include="..\Classes\menu\FlowMenu.cpp" />
+    <ClCompile Include="..\Classes\menu\SkillMenu.cpp" />
+    <ClCompile Include="..\Classes\scene\BattleScene.cpp" />
+    <ClCompile Include="..\Classes\scene\GalleryScene.cpp" />
+    <ClCompile Include="..\Classes\scene\MainScene.cpp" />
+    <ClCompile Include="..\Classes\scene\StoryScene.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\controll\Controller.h" />
+    <ClInclude Include="..\Classes\controll\Loader.h" />
+    <ClInclude Include="..\Classes\controll\ProcessRule.h" />
+    <ClInclude Include="..\Classes\dialog\DialogBox.h" />
+    <ClInclude Include="..\Classes\dialog\StatuBar.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\hero\Animate.h" />
+    <ClInclude Include="..\Classes\hero\Hero.h" />
+    <ClInclude Include="..\Classes\hero\HeroEntity.h" />
+    <ClInclude Include="..\Classes\menu\BeginMenu.h" />
+    <ClInclude Include="..\Classes\menu\FlowMenu.h" />
+    <ClInclude Include="..\Classes\menu\SkillMenu.h" />
+    <ClInclude Include="..\Classes\scene\BattleScene.h" />
+    <ClInclude Include="..\Classes\scene\GalleryScene.h" />
+    <ClInclude Include="..\Classes\scene\MainScene.h" />
+    <ClInclude Include="..\Classes\scene\StoryScene.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
