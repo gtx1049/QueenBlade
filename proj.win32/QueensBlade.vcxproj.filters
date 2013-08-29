@@ -134,5 +134,8 @@
     <ClInclude Include="..\Classes\menu\BeginMenu.h">
       <Filter>Classes\menu</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\menu\menuset.h">
+      <Filter>Classes\menu</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

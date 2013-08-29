@@ -1,5 +1,4 @@
 #include "AppDelegate.h"
-#include "scene/MainScene.h"
 
 USING_NS_CC;
 
@@ -23,6 +22,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // set FPS. the default value is 1.0/60 if you don't call this
     pDirector->setAnimationInterval(1.0 / 60);
+
+	CCEGLView::sharedOpenGLView()->setDesignResolutionSize(1280, 720, kResolutionNoBorder);
 
     // create a scene. it's an autorelease object
     MainScene *pScene = MainScene::create();

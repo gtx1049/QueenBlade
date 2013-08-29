@@ -12,7 +12,7 @@ CCScene* HelloWorld::scene()
 
     // add layer as a child to scene
     scene->addChild(layer);
-
+	
     // return the scene
     return scene;
 }
@@ -26,7 +26,7 @@ bool HelloWorld::init()
     {
         return false;
     }
-    
+	this->autorelease();
     CCSize visibleSize = CCDirector::sharedDirector()->getVisibleSize();
     CCPoint origin = CCDirector::sharedDirector()->getVisibleOrigin();
 

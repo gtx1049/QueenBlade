@@ -2,6 +2,7 @@
 #define __MAINSCENE_H__
 
 #include "cocos2d.h"
+#include "menu\menuset.h"
 USING_NS_CC;
 
 class MainScene : public CCScene

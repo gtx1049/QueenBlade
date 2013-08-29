@@ -1,5 +1,4 @@
 #include "MainScene.h"
-#include "../menu/BeginMenu.h"
 
 
 MainScene::MainScene(void)
@@ -20,7 +19,7 @@ bool MainScene::init()
 	CCSize visibleSize = CCDirector::sharedDirector()->getVisibleSize();
     CCPoint origin = CCDirector::sharedDirector()->getVisibleOrigin();
 	//add background
-    CCSprite* background = CCSprite::create("welcome.png");
+	CCSprite* background = CCSprite::create(Loader::mains_wel);
 
     // position the sprite on the center of the screen
     background->setPosition(ccp(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
@@ -32,6 +31,6 @@ bool MainScene::init()
 	BeginMenu *beginmenu = BeginMenu::create();
 	this->addChild(beginmenu, 1);
 
-    // return the scene
+	// return the scene
     return true;
 }
